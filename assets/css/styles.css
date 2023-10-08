@@ -31,7 +31,7 @@ body{
 .title-grid {
     background-color: #283D98;
     display: grid;
-    max-height: 30em;
+    /*max-height: 30em;*/
     padding-top: 2em;
     padding-bottom: 2em;
     grid-template-columns: 1fr 5fr 1fr;
@@ -49,7 +49,7 @@ body{
     display: grid;
     padding-top: 2em;
     padding-bottom: 2em;
-    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
@@ -78,10 +78,10 @@ body{
     grid-row-gap: 0px;
 }
 .title-img{
-    max-height: 20em;
-    margin: auto;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    /*max-height: 20em;
+    margin: auto;*/
+    /*padding-top: 0.5em;
+    padding-bottom: 0.5em;*/
     object-fit: cover;
     width: 100%;
 }
@@ -111,5 +111,10 @@ body{
 }
 
 .info-img{
-    height: 20em;
+    /*height: 20em;*/
+    margin: auto;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    object-fit: cover;
+    width: 100%;
 }
