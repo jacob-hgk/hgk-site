@@ -40,9 +40,9 @@ body{
 }
 .title-grid-internal {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1.0fr 1fr;
     grid-template-rows: 1fr;
-    grid-column-gap: 0px;
+    grid-column-gap: 1.0em;
     grid-row-gap: 0px;
 }
 .secondary-grid {
@@ -79,6 +79,11 @@ body{
 }
 .title-img{
     max-height: 20em;
+    margin: auto;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    object-fit: cover;
+    width: 100%;
 }
 .title-p{
     /*padding-left: 3em;
@@ -94,8 +99,8 @@ body{
 }
 .title-heading{
     /*padding-left: 3em;
-    padding-right: 3em;*/
-    padding-top: 5em;
+    padding-right: 3em;
+    padding-top: 5em;*/
     text-align: center;
 }
 
