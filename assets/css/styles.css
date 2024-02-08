@@ -142,14 +142,14 @@ body{
 
 .secondary-group-img-1{
     
-    box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.26);
+    /*box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.26);*/
     /*margin-top: 2em;
     margin-bottom: 2em;*/
 }
 
 .secondary-group-img-2{
     
-    box-shadow: -10px 10px 14px 0px rgba(0,0,0,0.26);
+    /*box-shadow: -10px 10px 14px 0px rgba(0,0,0,0.26);*/
     /*margin-top: 2em;
     margin-bottom: 2em;*/
 }
